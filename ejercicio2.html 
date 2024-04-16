@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for (let tabla = 1; tabla <= 10; tabla++) {
+  console.log(`Tabla de multiplicar del ${tabla}:`);
+  for (let i = 0; i <= 10; i++) {
+    let resultado = tabla * i;
+    console.log(`${tabla} x ${i} = ${resultado}`);
+  }
+  console.log("--------------------");
+}
+    </script>
+</body>
+</html>
